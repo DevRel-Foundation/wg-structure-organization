@@ -16,6 +16,6 @@ Most work will be done async in this repo. Co-managers will conduct ad-hoc meeti
 | ---- | --------- |
 | Kelly Andrews | |
 | Tony Blank | @tonyblank |
-| Debjani Chatterjee | |
+| Debjani Chatterjee |@rapchic |
 | Ijeoma Onwuka | |
 | Marcos Placona | @mplacona |
