@@ -89,6 +89,7 @@ The working group will produce:
 - **Best Practices Guides:** Recommendations for team size, roles, and reporting structures.
 - **Case Studies & Examples:** Real-world applications of DevRel structures in various company sizes and industries.
 - **DevRel Benchmarking Report:** Data-driven insights on how DevRel teams are structured across organizations.
+- **Calculator:** Given inputs for company size, objectives this calculator can give you an idea of investment and team size.
 
 ## 8. Critical Annual Activities
 
