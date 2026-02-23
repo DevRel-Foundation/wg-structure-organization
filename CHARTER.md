@@ -3,12 +3,83 @@
 ## 1. Working Group Definition
 
 ### Tl;Dr:
-The primary objective of this working group is to document best practices for structuring and organizing Developer Relations (DevRel) teams within companies, including:
+The primary objective of this working group is to document analyze, and standardize best practices for structuring and organizing Developer Relations (DevRel) teams within companies, including:
+
 - Team size
 - Roles and responsibilities
 - Reporting structure
 
 Developer Relations teams vary significantly across organizations, influenced by company size, customer personas, and strategic priorities. The DevRel Foundation’s Structure and Org Working Group aims to identify and categorize the different models of DevRel teams, understanding how these factors shape their function. This working group will produce resources that help organizations define, evaluate, and optimize their DevRel teams to align with business goals.
+
+### **1.1 Scope**
+
+-   **Team Size**: Correlation between team size, company revenue, and developer community reach.
+-   **Roles & Responsibilities**: Standardized role definitions (e.g., Developer Advocate vs. Community Manager) and competency frameworks.
+-   **Reporting Structures**: Impact of reporting lines (e.g., Engineering vs. Marketing) on team autonomy, budget, and cross-functional collaboration.
+-   **Maturity Models**: Evolutionary stages of DevRel teams (e.g., early-stage vs. enterprise).
+
+### **1.2 Process for Documenting Organizational Models**
+
+#### *1.2.1 Terminology*
+-   **Org Model**: A documented structure of a DevRel team, including roles, reporting lines, and key metrics.
+-   **Team Maturity**: Classification based on team lifecycle stage (e.g., **Exploratory**, **Growth**, **Scaled**).
+-   **Contributor**: Any individual or organization submitting data, case studies, or frameworks.
+
+#### *1.2.2 Research Methodology*
+
+-   **Data Collection**:
+    -   **Surveys**: Annual anonymized survey of 500+ DevRel teams across industries (B2B, B2D, OSS).
+    -   **Case Studies**: Curated submissions from contributors, validated for accuracy and relevance.
+    -   **Interviews**: Structured interviews with DevRel leaders (e.g., Head of DevRel, CTO).
+
+-   **Validation Criteria**:
+    -   Data must be anonymized unless explicit permission is granted.
+    -   Case studies require **3+ participant reviews** for objectivity.
+    -   Publicly document and tag organizational anti-patterns (e.g., “DevRel as Sales Support Only”).
+
+#### *1.2.3 Contribution Guidelines*
+
+-   **Submission Process**:
+    -   Contributors submit via GitHub PRs using standardized templates.
+    -   All submissions require a **Contributor License Agreement (CLA)** confirming rights to share data.
+    -   
+-   **Inclusion Criteria**:
+    -   Relevance to DevRel (e.g., no pure sales/marketing teams).
+    -   Demonstrated impact on developer experience or community growth.
+
+#### *1.2.4 Review & Approval*
+
+-   **Validation Committee**: 3 rotating participants + 1 Steering Committee liaison.
+-   **Dispute Resolution**:
+    -   Conflicts over model classification are resolved via **blind voting** after a 14-day discussion period.
+    -   Appeals may be escalated to the Steering Committee.
+
+#### *1.2.5 Storage & Access*
+
+-   **Central Repository**: GitHub (`DevRel-Foundation/structure-org`) with version control.
+-   **Licensing**: Creative Commons Attribution 4.0 (CC BY 4.0) for open access and derivative works.
+-   
+### **1.3 Persona-Driven Organizational Design**
+
+-   **Developer Personas**: Align team structures with target developer segments (e.g., **Hobbyist**, **Enterprise Architect**).
+-   **Playbooks**: Templates for structuring teams based on personas (e.g., "B2D SaaS Startup Playbook").
+
+### **1.4 Ethical Guidelines**
+
+-   **Anonymity**: Protect sensitive organizational data (e.g., team salaries, internal KPIs).
+-   **Bias Mitigation**:
+    -   Actively seek contributions from underrepresented regions (e.g., LATAM, Africa).
+    -   Use inclusive language frameworks (e.g., WCAG 2.1 for documentation).
+
+### **1.5 Maturity Framework**
+
+A tiered system to classify DevRel teams:
+
+| Tier | Criteria | Example |
+| --- | --- | --- |
+| **T1 (Exploratory)** | <2 FTEs, ad-hoc activities | Early-stage startup |
+| **T2 (Growth)** | 3-5 FTEs, defined KPIs | Series B SaaS company |
+| **T3 (Scaled)** | 10+ FTEs, global programs | Enterprise (e.g., AWS, Google) |
 
 ## 2. Scope & Objectives
 
@@ -23,12 +94,14 @@ The working group focuses on:
 - Success metrics, or other measurement goals, as they are being worked on separately in the [Metrics and Reporting working group](https://github.com/DevRel-Foundation/wg-metrics-reporting).
 - Advocacy for any specific DevRel team model as a “one-size-fits-all” solution.
 - Making decisions on behalf of individual organizations.
+- Prescriptive recommendations (e.g., “All T2 teams must report to Engineering”).
 
 ## 3. Working Group Composition
 
 The Structure and Org Working Group consists of:
 - **Co-Managers**: Responsible for leading discussions, facilitating collaboration, and ensuring the group meets its objectives.
 - **Participants**: Any member of the DevRel Foundation who actively contributes to the working group.
+- **Good to have**: Advisory Board: Invited industry leaders (e.g., ex-Head of DevRel at GitHub) for annual review.
 
 This working group is open to any member who identifies as supporting developers in their role, including:
 - Developer Advocates
@@ -52,17 +125,23 @@ To ensure broad representation, co-managers are spread across different time zon
 - Guide research efforts and oversee content creation.
 - Ensure documentation is reviewed, updated, and approved.
 - **Term length:** 1 year (renewable via election).
+- Publish quarterly transparency reports on GitHub.
+- Facilitate bias audits of documented models annually.
 
 ### Participants
 - Research topics and share insights on DevRel organizational models.
 - Contribute to discussions and working group initiatives.
 - Create and review content by submitting PRs (pull requests) to the Structure and Org repository.
 - Vote to ratify working group documentation.
+- Minimum commitment: 2-4 hours/month for core contributors.
 
 ## 5. Decision-Making & Collaboration
 
 ### Consensus-Driven Decision-Making
-The working group operates on a consensus model. Major decisions, such as adopting new frameworks or best practices, will be discussed in meetings and ratified via participant voting.
+- The working group operates on a consensus model. Major decisions, such as adopting new frameworks or best practices, will be discussed in meetings and ratified via participant voting.
+
+### Charter Amendments
+- Requires 2/3 majority vote of active participants + Steering Committee approval.
 
 ### Collaboration Tools
 - **GitHub**: All official documents and best practices will be stored and maintained in the Structure and Org repository.
@@ -72,9 +151,17 @@ The working group operates on a consensus model. Major decisions, such as adopti
 ## 6. Meetings
 
 ### Meeting Cadence
-- **Meeting frequency:** Ad-hoc, based on project needs.
+- **Meeting frequency:** see below.
 - Meetings are conducted via video conference and are open to all participants.
 - Co-managers will post meeting schedules and updates to both Discord and the mailing list.
+
+### Meeting Schedule
+
+| Meeting Type | Cadence | Time Zone Rotation | Output |
+| --- | --- | --- | --- |
+| Progress Sync | Biweekly | APAC/EMEA/AMER | GitHub Minutes |
+| Case Study Review | Monthly | Fixed (UTC) | Model Templates |
+| Steering Committee | Quarterly | N/A | Public Slides |
 
 ### Meeting Format
 - **Agenda Setting:** Co-managers prepare an agenda in advance, with input from participants.
@@ -99,6 +186,8 @@ The working group will produce:
 - **Annual Review of Documentation**
   - Evaluate existing best practices and update them based on new findings.
   - Ensure relevance and accuracy of recommendations.
+  - Launch global survey.
+  - Publish maturity framework updates.
 
 ## 9. Governance
 
